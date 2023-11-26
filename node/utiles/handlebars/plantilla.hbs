@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Consulta por app React</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #ca0e0e;
+    }
+    p {
+      color: #000;
+    }    
+    li {
+      color: #000;
+    } 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Nuevo consulta desde Contacto.</h1>
+    <p>Recibiste una nueva consulta desde la App React</p>    
+    <ul>
+        <li>Remitente Nombre {{nombre}}</li>
+        <li>Remitente Correo electrónico  {{correo}}</li>
+        <li>Consulta: {{ mensaje }}</li>    
+    </ul>
+  </div>
+</body>
+</html>
